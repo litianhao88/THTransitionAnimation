@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		979859581CEC578500228F03 /* THTransitionCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 979859571CEC578500228F03 /* THTransitionCommon.m */; };
+		97F01ADE1D2B3E10006CF809 /* THInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F01ADD1D2B3E10006CF809 /* THInteractiveTransition.m */; };
+		97F01B041D2B45CC006CF809 /* CADisplayLink+THBlockSupportEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F01AFB1D2B45CC006CF809 /* CADisplayLink+THBlockSupportEx.m */; };
+		97F01B051D2B45CC006CF809 /* masterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F01AFD1D2B45CC006CF809 /* masterView.m */; };
+		97F01B061D2B45CC006CF809 /* THWaterWaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F01AFF1D2B45CC006CF809 /* THWaterWaveLayer.m */; };
+		97F01B071D2B45CC006CF809 /* UIView+THExplode.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F01B011D2B45CC006CF809 /* UIView+THExplode.m */; };
+		97F01B081D2B45CC006CF809 /* THAnimationBlockLibManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F01B031D2B45CC006CF809 /* THAnimationBlockLibManager.m */; };
+		97F0FDEA1CE940180011CD7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F0FDE91CE940180011CD7F /* main.m */; };
+		97F0FDED1CE940180011CD7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F0FDEC1CE940180011CD7F /* AppDelegate.m */; };
+		97F0FDF01CE940180011CD7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F0FDEF1CE940180011CD7F /* ViewController.m */; };
+		97F0FDF31CE940180011CD7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F0FDF11CE940180011CD7F /* Main.storyboard */; };
+		97F0FDF51CE940180011CD7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F0FDF41CE940180011CD7F /* Assets.xcassets */; };
+		97F0FDF81CE940180011CD7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F0FDF61CE940180011CD7F /* LaunchScreen.storyboard */; };
+		97F0FE061CE941940011CD7F /* UINavigationController+THTransitionSupportExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F0FE051CE941940011CD7F /* UINavigationController+THTransitionSupportExtension.m */; };
+		97F0FE091CE943D70011CD7F /* THTransitionDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F0FE081CE943D70011CD7F /* THTransitionDelegateManager.m */; };
+		97F0FE0C1CE944B10011CD7F /* THTransitionAnimationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F0FE0B1CE944B10011CD7F /* THTransitionAnimationDelegate.m */; };
+		97F0FE331CE98A1F0011CD7F /* THTransitionInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F0FE321CE98A1F0011CD7F /* THTransitionInfoModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		979859571CEC578500228F03 /* THTransitionCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTransitionCommon.m; sourceTree = "<group>"; };
+		97F01ADC1D2B3E10006CF809 /* THInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THInteractiveTransition.h; sourceTree = "<group>"; };
+		97F01ADD1D2B3E10006CF809 /* THInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THInteractiveTransition.m; sourceTree = "<group>"; };
+		97F01AFA1D2B45CC006CF809 /* CADisplayLink+THBlockSupportEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CADisplayLink+THBlockSupportEx.h"; sourceTree = "<group>"; };
+		97F01AFB1D2B45CC006CF809 /* CADisplayLink+THBlockSupportEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CADisplayLink+THBlockSupportEx.m"; sourceTree = "<group>"; };
+		97F01AFC1D2B45CC006CF809 /* masterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = masterView.h; sourceTree = "<group>"; };
+		97F01AFD1D2B45CC006CF809 /* masterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = masterView.m; sourceTree = "<group>"; };
+		97F01AFE1D2B45CC006CF809 /* THWaterWaveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THWaterWaveLayer.h; sourceTree = "<group>"; };
+		97F01AFF1D2B45CC006CF809 /* THWaterWaveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THWaterWaveLayer.m; sourceTree = "<group>"; };
+		97F01B001D2B45CC006CF809 /* UIView+THExplode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+THExplode.h"; sourceTree = "<group>"; };
+		97F01B011D2B45CC006CF809 /* UIView+THExplode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+THExplode.m"; sourceTree = "<group>"; };
+		97F01B021D2B45CC006CF809 /* THAnimationBlockLibManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THAnimationBlockLibManager.h; sourceTree = "<group>"; };
+		97F01B031D2B45CC006CF809 /* THAnimationBlockLibManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THAnimationBlockLibManager.m; sourceTree = "<group>"; };
+		97F0FDE51CE940180011CD7F /* THTransitionAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THTransitionAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F0FDE91CE940180011CD7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97F0FDEB1CE940180011CD7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97F0FDEC1CE940180011CD7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97F0FDEE1CE940180011CD7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97F0FDEF1CE940180011CD7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97F0FDF21CE940180011CD7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97F0FDF41CE940180011CD7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97F0FDF71CE940180011CD7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97F0FDF91CE940180011CD7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F0FE041CE941940011CD7F /* UINavigationController+THTransitionSupportExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+THTransitionSupportExtension.h"; sourceTree = "<group>"; };
+		97F0FE051CE941940011CD7F /* UINavigationController+THTransitionSupportExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+THTransitionSupportExtension.m"; sourceTree = "<group>"; };
+		97F0FE071CE943D70011CD7F /* THTransitionDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTransitionDelegateManager.h; sourceTree = "<group>"; };
+		97F0FE081CE943D70011CD7F /* THTransitionDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTransitionDelegateManager.m; sourceTree = "<group>"; };
+		97F0FE0A1CE944B10011CD7F /* THTransitionAnimationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTransitionAnimationDelegate.h; sourceTree = "<group>"; };
+		97F0FE0B1CE944B10011CD7F /* THTransitionAnimationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTransitionAnimationDelegate.m; sourceTree = "<group>"; };
+		97F0FE311CE98A1F0011CD7F /* THTransitionInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTransitionInfoModel.h; sourceTree = "<group>"; };
+		97F0FE321CE98A1F0011CD7F /* THTransitionInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTransitionInfoModel.m; sourceTree = "<group>"; };
+		97F0FE341CE98A890011CD7F /* THTransitionCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTransitionCommon.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97F0FDE21CE940180011CD7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97F01AF91D2B45CC006CF809 /* AnimationSupportClasses */ = {
+			isa = PBXGroup;
+			children = (
+				97F01AFA1D2B45CC006CF809 /* CADisplayLink+THBlockSupportEx.h */,
+				97F01AFB1D2B45CC006CF809 /* CADisplayLink+THBlockSupportEx.m */,
+				97F01AFC1D2B45CC006CF809 /* masterView.h */,
+				97F01AFD1D2B45CC006CF809 /* masterView.m */,
+				97F01AFE1D2B45CC006CF809 /* THWaterWaveLayer.h */,
+				97F01AFF1D2B45CC006CF809 /* THWaterWaveLayer.m */,
+				97F01B001D2B45CC006CF809 /* UIView+THExplode.h */,
+				97F01B011D2B45CC006CF809 /* UIView+THExplode.m */,
+			);
+			path = AnimationSupportClasses;
+			sourceTree = "<group>";
+		};
+		97F0FDDC1CE940180011CD7F = {
+			isa = PBXGroup;
+			children = (
+				97F0FDE71CE940180011CD7F /* THTransitionAnimation */,
+				97F0FDE61CE940180011CD7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97F0FDE61CE940180011CD7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97F0FDE51CE940180011CD7F /* THTransitionAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97F0FDE71CE940180011CD7F /* THTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				97F0FDFF1CE940A60011CD7F /* THTransitionAnimation */,
+				97F0FDEE1CE940180011CD7F /* ViewController.h */,
+				97F0FDEF1CE940180011CD7F /* ViewController.m */,
+				97F0FDE81CE940180011CD7F /* Supporting Files */,
+			);
+			path = THTransitionAnimation;
+			sourceTree = "<group>";
+		};
+		97F0FDE81CE940180011CD7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97F0FDEB1CE940180011CD7F /* AppDelegate.h */,
+				97F0FDEC1CE940180011CD7F /* AppDelegate.m */,
+				97F0FDE91CE940180011CD7F /* main.m */,
+				97F0FDF11CE940180011CD7F /* Main.storyboard */,
+				97F0FDF41CE940180011CD7F /* Assets.xcassets */,
+				97F0FDF61CE940180011CD7F /* LaunchScreen.storyboard */,
+				97F0FDF91CE940180011CD7F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97F0FDFF1CE940A60011CD7F /* THTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				97F0FE001CE940A60011CD7F /* AnimationLib(动画代码库) */,
+				97F0FE011CE940A60011CD7F /* Category_Interface(对外提供调用接口) */,
+				97F0FE021CE940A60011CD7F /* Delegate(动画、手势代理) */,
+				97F0FE031CE940A60011CD7F /* Manager(管理类) */,
+			);
+			path = THTransitionAnimation;
+			sourceTree = "<group>";
+		};
+		97F0FE001CE940A60011CD7F /* AnimationLib(动画代码库) */ = {
+			isa = PBXGroup;
+			children = (
+				97F01AF91D2B45CC006CF809 /* AnimationSupportClasses */,
+				97F01B021D2B45CC006CF809 /* THAnimationBlockLibManager.h */,
+				97F01B031D2B45CC006CF809 /* THAnimationBlockLibManager.m */,
+			);
+			path = "AnimationLib(动画代码库)";
+			sourceTree = "<group>";
+		};
+		97F0FE011CE940A60011CD7F /* Category_Interface(对外提供调用接口) */ = {
+			isa = PBXGroup;
+			children = (
+				97F0FE041CE941940011CD7F /* UINavigationController+THTransitionSupportExtension.h */,
+				97F0FE051CE941940011CD7F /* UINavigationController+THTransitionSupportExtension.m */,
+			);
+			path = "Category_Interface(对外提供调用接口)";
+			sourceTree = "<group>";
+		};
+		97F0FE021CE940A60011CD7F /* Delegate(动画、手势代理) */ = {
+			isa = PBXGroup;
+			children = (
+				97F0FE0A1CE944B10011CD7F /* THTransitionAnimationDelegate.h */,
+				97F0FE0B1CE944B10011CD7F /* THTransitionAnimationDelegate.m */,
+				97F01ADC1D2B3E10006CF809 /* THInteractiveTransition.h */,
+				97F01ADD1D2B3E10006CF809 /* THInteractiveTransition.m */,
+			);
+			path = "Delegate(动画、手势代理)";
+			sourceTree = "<group>";
+		};
+		97F0FE031CE940A60011CD7F /* Manager(管理类) */ = {
+			isa = PBXGroup;
+			children = (
+				97F0FE071CE943D70011CD7F /* THTransitionDelegateManager.h */,
+				97F0FE081CE943D70011CD7F /* THTransitionDelegateManager.m */,
+				97F0FE311CE98A1F0011CD7F /* THTransitionInfoModel.h */,
+				97F0FE321CE98A1F0011CD7F /* THTransitionInfoModel.m */,
+				97F0FE341CE98A890011CD7F /* THTransitionCommon.h */,
+				979859571CEC578500228F03 /* THTransitionCommon.m */,
+			);
+			path = "Manager(管理类)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97F0FDE41CE940180011CD7F /* THTransitionAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F0FDFC1CE940180011CD7F /* Build configuration list for PBXNativeTarget "THTransitionAnimation" */;
+			buildPhases = (
+				97F0FDE11CE940180011CD7F /* Sources */,
+				97F0FDE21CE940180011CD7F /* Frameworks */,
+				97F0FDE31CE940180011CD7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THTransitionAnimation;
+			productName = THTransitionAnimation;
+			productReference = 97F0FDE51CE940180011CD7F /* THTransitionAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97F0FDDD1CE940180011CD7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = litianhao;
+				TargetAttributes = {
+					97F0FDE41CE940180011CD7F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = H26QEJ3QWF;
+					};
+				};
+			};
+			buildConfigurationList = 97F0FDE01CE940180011CD7F /* Build configuration list for PBXProject "THTransitionAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97F0FDDC1CE940180011CD7F;
+			productRefGroup = 97F0FDE61CE940180011CD7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97F0FDE41CE940180011CD7F /* THTransitionAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97F0FDE31CE940180011CD7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F0FDF81CE940180011CD7F /* LaunchScreen.storyboard in Resources */,
+				97F0FDF51CE940180011CD7F /* Assets.xcassets in Resources */,
+				97F0FDF31CE940180011CD7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97F0FDE11CE940180011CD7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F01B061D2B45CC006CF809 /* THWaterWaveLayer.m in Sources */,
+				97F0FE331CE98A1F0011CD7F /* THTransitionInfoModel.m in Sources */,
+				97F0FE0C1CE944B10011CD7F /* THTransitionAnimationDelegate.m in Sources */,
+				97F01B071D2B45CC006CF809 /* UIView+THExplode.m in Sources */,
+				97F01B081D2B45CC006CF809 /* THAnimationBlockLibManager.m in Sources */,
+				97F01B051D2B45CC006CF809 /* masterView.m in Sources */,
+				97F0FDF01CE940180011CD7F /* ViewController.m in Sources */,
+				97F0FDED1CE940180011CD7F /* AppDelegate.m in Sources */,
+				97F01ADE1D2B3E10006CF809 /* THInteractiveTransition.m in Sources */,
+				97F0FE061CE941940011CD7F /* UINavigationController+THTransitionSupportExtension.m in Sources */,
+				97F0FE091CE943D70011CD7F /* THTransitionDelegateManager.m in Sources */,
+				97F0FDEA1CE940180011CD7F /* main.m in Sources */,
+				97F01B041D2B45CC006CF809 /* CADisplayLink+THBlockSupportEx.m in Sources */,
+				979859581CEC578500228F03 /* THTransitionCommon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97F0FDF11CE940180011CD7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97F0FDF21CE940180011CD7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97F0FDF61CE940180011CD7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97F0FDF71CE940180011CD7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97F0FDFA1CE940180011CD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		97F0FDFB1CE940180011CD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97F0FDFD1CE940180011CD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = THTransitionAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = THer.THTransitionAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97F0FDFE1CE940180011CD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = THTransitionAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = THer.THTransitionAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97F0FDE01CE940180011CD7F /* Build configuration list for PBXProject "THTransitionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F0FDFA1CE940180011CD7F /* Debug */,
+				97F0FDFB1CE940180011CD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97F0FDFC1CE940180011CD7F /* Build configuration list for PBXNativeTarget "THTransitionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F0FDFD1CE940180011CD7F /* Debug */,
+				97F0FDFE1CE940180011CD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97F0FDDD1CE940180011CD7F /* Project object */;
+}
