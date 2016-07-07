@@ -11,7 +11,7 @@
 @class THTransitionInfoModel ;
 
 @interface THTransitionAnimationDelegate : NSObject <UIViewControllerAnimatedTransitioning>
-
+//
 @property (nonatomic,strong) THTransitionInfoModel *transitionInfoModel;
 
 
